@@ -1,0 +1,16 @@
+date,sku,units,revenue,stock_on_hand,store,region,group_key
+2025-01-01,SKU001,8,320,150,StoreA,North,all
+2025-01-02,SKU001,6,240,145,StoreA,North,all
+2025-01-03,SKU001,10,400,140,StoreA,North,all
+2025-01-01,SKU002,1,50,500,StoreA,North,all
+2025-01-02,SKU002,0,0,500,StoreA,North,all
+2025-01-03,SKU002,1,50,498,StoreA,North,all
+2025-01-01,SKU003,20,600,40,StoreB,South,all
+2025-01-02,SKU003,18,540,38,StoreB,South,all
+2025-01-03,SKU003,22,660,36,StoreB,South,all
+2025-01-01,SKU004,0,0,200,StoreB,South,all
+2025-01-02,SKU004,0,0,200,StoreB,South,all
+2025-01-03,SKU004,1,20,199,StoreB,South,all
+2025-01-01,SKU005,5,250,20,StoreC,East,all
+2025-01-02,SKU005,6,300,18,StoreC,East,all
+2025-01-03,SKU005,4,200,17,StoreC,East,all
