@@ -1,8 +1,16 @@
-[project]
-name = "edited"
+[tool.poetry]
+name = "retail-insight-console"
 version = "0.1.0"
-description = "Add your description here"
-readme = "README.md"
-requires-python = ">=3.12"
-dependencies = []
+description = ""
+authors = ["you"]
 package-mode = false
+
+[tool.poetry.dependencies]
+python = "^3.10"
+streamlit = "*"
+pandas = "*"
+numpy = "*"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
