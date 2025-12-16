@@ -3,6 +3,16 @@ import pandas as pd
 import requests
 from retail_agent import RetailInsightAgent, RetailAgentConfig
 
+@st.cache_resource
+def is_ollama_available() -> bool:
+    try:
+        r = requests.get(
+            "http://127.0.0.1:11434/api/tags",
+            timeout=2
+        )
+        return r.status_code == 200
+    except Exception:
+        return False
 
 # ---------------------------------------------------------
 # TinyDolphin LLM Commentary (correct API)
@@ -143,3 +153,4 @@ if run_button:
 
 else:
     st.info("Upload all CSVs and press Generate Insights.")
+
